@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js" ></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+	<style>
+		.pull-left{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+		.pull-right{
+				width: 260px;
+			height: 200px;
+			background-color: green;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div class="container " style="width:500px;border:1px solid blue;margin: 10px auto;">
+			<!--左浮动-->
+			<div class="pull-left"> 我在左边</div>
+			<!--右浮动-->
+			<div class="pull-right">我在右边</div>
+		</div>
+		
+		<div class="container clearfix " style="width:500px;border:1px solid blue;margin: 10px auto;">
+			<!--左浮动-->
+			<div class="pull-left"> 我在左边</div>
+			<!--右浮动-->
+			<div class="pull-right">我在右边</div>
+		</div>
+		
+		<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		
+		
+		
+	</body>
+</html>
